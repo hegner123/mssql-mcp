@@ -31,7 +31,7 @@ just install
 Add to your Claude Code configuration:
 
 ```bash
-claude mcp add --transport stdio mssql-mcp -- mssql-mcp
+claude mcp add --transport stdio --scope user mssql-mcp -- mssql-mcp
 ```
 
 Or add to `.mcp.json`:
